@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+    height: 100vh;
+}
+
+.loginlogo {
+    font-family: 'Protest Revolution', sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin-top: 10px;
+    text-align: center;
+}
+.loginlogo span{
+    font-size: 2rem;
+  }
+
+
+.loginouter {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./loginbackground.jpg");
+    background-size: cover;
+    
+/*     border: 5px solid red; */
+
+}
+
+.loginbox {
+/*     border: 5px solid red; */
+    width: 40vw;
+    padding: 10px;
+    background-color: #1A2238;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.formlogin {
+/*     border: 5px solid red; */
+    width: 100%;
+    color: white;
+    
+}
+
+.submitbut {
+    width: 100%;
+    background-color: #DC4C64;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-color: #DC4C64;
+}
+
+.submitbut:hover{
+    background-color: #dc4c64dd;
+    border-color: #dc4c64dd;
+}
+
+.createuserbut {
+    width: 100%;
+}
