@@ -3,7 +3,6 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const path = require('path');
 const app = express()
-require('dotenv').config()
 
 const login = require('./routes/login.js')
 const user = require('./routes/user.js')
@@ -53,4 +52,4 @@ app.get('*',(req,res) => {
 })
 
 
-app.listen(process.env.PORT || 5000 ,() => console.log(`Server Start at 5000`))
+app.listen(5000 ,() => console.log(`Server Start at 5000`))
