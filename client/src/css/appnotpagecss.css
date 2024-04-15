@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+.notpage {
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
